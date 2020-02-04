@@ -45,6 +45,12 @@
             <artifactId>surefire-testng</artifactId>
             <version>3.0.0-M4</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-picocontainer</artifactId>
+            <version>4.7.2</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -67,7 +73,7 @@
 
                 <configuration>
                     <includes>
-                        <include>**/*BaseUSOpsReportsRunner.Java</include>
+                        <include>**/*MyRunner.Java</include>
                     </includes>
                 </configuration>
             </plugin>
