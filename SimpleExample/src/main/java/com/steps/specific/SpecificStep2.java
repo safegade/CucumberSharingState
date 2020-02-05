@@ -11,15 +11,14 @@ public class SpecificStep2 {
         this.cs=cs;
     }
 
-    @Then("^My Report 2 is clicked$")
-    public void my_report_2_is_clicked()  {
-        System.out.println("Report 2 is clicked");
-        System.out.println("Common Step Data Report Number: " + cs.reportNumber);
-        System.out.println("Common Step Data Menu Hit Number: " + cs.menuHitNumber);
+    @Then("^read dashboard metrics figures$")
+    public void read_dashboard_metrics_figures() {
+        System.out.println("In Dashboard Reading Step: " + cs.reportName);
     }
 
-    @And("^perform my testing by validating 10 \\* 5$")
-    public void perform_my_testing_by_validating_10_5() {
-        System.out.println("10 * 5 = 50");
+    @And("^assert dashboard metrics correctness$")
+    public void assert_dashboard_metrics_correctness() {
+        System.out.println("In Dashboard Assertion Step: " + cs.reportName);
     }
+
 }

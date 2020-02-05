@@ -2,7 +2,6 @@
 @SpecificFeature2
 Feature: Specific Feature 2
   Scenario:
-    Given I log in to "My App"
-    And Hit reports menu
-    Then My Report 2 is clicked
-    And perform my testing by validating 10 * 5
+    Given User logs in to portal and navigates "Dashboard Report 2"
+    Then read dashboard metrics figures
+    And assert dashboard metrics correctness

@@ -7,19 +7,20 @@ import io.cucumber.java.en.Then;
 public class SpecificStep1 {
 
     private CommonSteps cs;
-    public SpecificStep1(CommonSteps cs){
-        this.cs=cs;
+
+    public SpecificStep1(CommonSteps cs) {
+        this.cs = cs;
     }
 
-    @Then("^My Report 1 is clicked$")
-    public void my_report_1_is_clicked()  {
-        System.out.println("Report 1 is clicked");
-        System.out.println("Common Step Data Report Number: " + cs.reportNumber);
-        System.out.println("Common Step Data Menu Hit Number: " + cs.menuHitNumber);
+    @Then("^read state break down summary table$")
+    public void read_state_break_down_summary_table() {
+        //retrieving shared state
+        System.out.println("In reading summary table step: " + cs.reportName);
     }
 
-    @And("^perform my testing by validating 10 \\* 10$")
-    public void perform_my_testing_by_validating_10_10() {
-        System.out.println("10 * 10 = 100");
+    @And("^assert all numbers for their correctness$")
+    public void assert_all_numbers_for_their_correctness() {
+        //retrieving shared state
+        System.out.println("In report numbers assertion step: " + cs.reportName);
     }
 }

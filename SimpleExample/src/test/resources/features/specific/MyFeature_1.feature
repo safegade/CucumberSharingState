@@ -3,7 +3,6 @@
 Feature: Specific Feature 1
 
   Scenario:
-    Given I log in to "My App"
-    And Hit reports menu
-    Then My Report 1 is clicked
-    And perform my testing by validating 10 * 10
+    Given User logs in to portal and navigates "Report 1"
+    Then read state break down summary table
+    And assert all numbers for their correctness
