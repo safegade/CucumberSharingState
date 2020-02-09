@@ -1,6 +1,6 @@
-package com.steps.specific;
+package com.myOrg.steps.specific;
 
-import com.steps.common.CommonSteps;
+import com.myOrg.steps.common.CommonSteps;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 

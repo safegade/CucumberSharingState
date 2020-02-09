@@ -1,4 +1,4 @@
-package com.cucumber.runner;
+package com.myOrg.runner;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 * Maven steps to run:
 * clean -Dtest=MyRunner test -Dtags="@AllFeatures" -DfailIfNoTests=false
 * */
-public class MyRunner {
+public class RunCucumberTest {
     private String tags;
 
     @BeforeClass

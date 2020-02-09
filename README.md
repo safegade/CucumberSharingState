@@ -46,9 +46,9 @@ This example considers only two reports and steps as below:
  
  <p>
  Next Step is, add pico container in pom.xml: <br>
-   &nbsp;&nbsp; &lt;dependency&gt;<br>
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;groupId&gt;io.cucumber&lt;/groupId&gt;<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;artifactId&gt;cucumber-picocontainer&lt;/artifactId&gt;<br>
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;version&gt;5.1.2&lt;/version&gt;<br>
-   &nbsp;&nbsp; &lt;/dependency&gt;<br>
+&nbsp;&nbsp; &lt;dependency&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;groupId&gt;io.cucumber&lt;/groupId&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;artifactId&gt;cucumber-picocontainer&lt;/artifactId&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;version&gt;5.1.2&lt;/version&gt;<br>
+&nbsp;&nbsp; &lt;/dependency&gt;<br>
  </p>

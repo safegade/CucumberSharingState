@@ -1,4 +1,4 @@
-package com.cucumber.runner;
+package com.myOrg.runner;
 
 import io.cucumber.core.cli.Main;
 

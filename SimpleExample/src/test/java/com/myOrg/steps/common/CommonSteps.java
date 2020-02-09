@@ -1,4 +1,4 @@
-package com.steps.common;
+package com.myOrg.steps.common;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
